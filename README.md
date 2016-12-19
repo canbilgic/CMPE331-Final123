@@ -1,6 +1,6 @@
 # hello-world
-CMPE 331 /  Hello World
+CMPE 331 /  Project
 
-<- Week 2 -> 
 
-günlerden p.tesi, editlendi. / week2
+
+
