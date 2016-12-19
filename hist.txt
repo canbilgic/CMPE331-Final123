@@ -1,0 +1,147 @@
+km$cluster
+km
+cbind(iris,km$cluster)
+table(iris$Species, km$cluster)
+plot(iris2[1:2], col=km$cluster)
+hclust(iris2)
+iris2[1:5,]
+dist(iris2[1:5,]
+)
+dist(iris2)
+dist(iris2)
+dist(iris2)
+min(dist(iris2))
+max(dist(iris2))
+hclust(dist(iris2))
+cl<-hclust(dist(iris2))
+cl
+plot(cl)
+plot(cl, label=iris$Species)
+load("C:\\Users\\student\\Desktop\\Data.csv")
+read.csv("C:\\Users\\student\\Desktop\\Data.csv")
+read.csv("C:\\Users\\student\\Desktop\\Data.csv", sep=";")
+read.csv("C:\\Users\\student\\Desktop\\Data.csv", sep=";")
+d<-read.csv("C:\\Users\\student\\Desktop\\Data.csv", sep=";")
+str(d)
+d<-read.csv("C:\\Users\\student\\Desktop\\Data.csv", sep=";")
+str(d)
+d
+d
+d<-read.csv("C:\\Users\\student\\Desktop\\Data.csv", sep=";")
+d
+str(d)
+d
+colnames(d)
+rownames(d)
+d<-read.csv("C:\\Users\\student\\Desktop\\Data.csv", sep=";", row=1)
+-----------------
+d
+d<-d[-1,]
+d
+dist(d)
+dist(d)
+plot(hclust(dist(d)))
+
+-----------------
+d
+rowSums(d)
+d/rowSums(d)
+(d/rowSums(d))
+(d/rowSums(d))[1,]
+(t(d)/rowSums(d))
+t((t(d)/rowSums(d)))
+t((t(d)/rowSums(d)))[1,]
+sum(t((t(d)/rowSums(d)))[1,])
+sum(d/rowSums(d))[1,])
+sum(d/rowSums(d))[1,]
+--------------
+d/rowSums(d)
+(d/rowSums(d))
+(d/rowSums(d))[1,]
+sum((d/rowSums(d))[1,])
+d/rowSums(d))[1,]
+d/rowSums(d)
+dcol<-d/rowSums(d)
+dcol2 <- dcol*100
+plot(hclust(dist(dcol)))
+----
+dcol
+100*dcol
+100*dcol[c(25),]
+100*dcol[c(12,25),]
+100*dcol[c(10,25),]
+d
+rowSums(d)
+t(t(d) / rowSums(d))
+drow<-t(t(d) / rowSums(d))
+drow
+100*drow
+drow<-t(t(d) / colSums(d))
+d3<-t(t(d) / colSums(d))
+d3
+colSums(d3)
+100*d3
+100*d3
+dist(d3)
+plot(hclust(dist(d3))
+)
+d3
+cor(d3)
+cor(t(d3))
+hclust(cor(t(d3)))
+hclust(as.dist(cor(t(d3))))
+plot(hclust(as.dist(cor(t(d3)))))
+d3
+d3[c(1,11),]
+d3[c(1,10),]
+100*d3[c(1,10),]
+plot(hclust(as.dist(1-cor(t(d3)))))
+d3
+100*d3
+100*d3
+q()
+history(100)
+
+------------------------
+
+myData<-read.csv("Data.csv", sep=";", row=1, header = TRUE)
+
+ters <- t(myData)
+cor(myData)
+cor(ters)
+plot(hclust(dist(myData)))
+plot(hclust(dist(ters)))
+
+Yýllara göre kümelere, hangi yýllar arasýnda iliþki var?
+ülkelere göre kümeleme, iliþkiler? cor'lar?
+
+plot(hclust(dist(myData)))
+
+---------
+
+colnames(myData)
+rownames(myData)
+
+aus <- myData[c(3),]
+denmark <- myData[c(8),]
+japan <- myData[c(19),]
+
+
+
+----------------------------- Japonya
+
+year <- rep(2003:2015)
+yillaragore <- c(3383,1476,492,867,1768,5100,1510,1953,1704,415,3696,1083,7621)
+
+plot(year,yillaragore)
+
+cor(year,yillaragore)
+fit <- lm(yillaragore~year)
+fit
+yillaragore2016 <- fit$coefficients[[1]] +
+fit$coefficients[[2]] * 2016
+yillaragore2016
+
+------------------------
+
+
