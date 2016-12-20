@@ -15,6 +15,10 @@ import java.awt.event.KeyEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
+/**
+*Home page is included home need buttons for registor, login and search function.
+*
+*/
 public class Home extends JFrame {
 
 	private JPanel contentPane;
@@ -74,6 +78,8 @@ public class Home extends JFrame {
 		lbl_login.setBounds(169, 166, 225, 32);
 		contentPane.add(lbl_login);
 		
+		//this ıs our search label
+	
 		Label lbl_srch = new Label("Search");
 		lbl_srch.addMouseListener(new MouseAdapter() {
 			@Override
